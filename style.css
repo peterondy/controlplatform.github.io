@@ -8,11 +8,11 @@
 }
 body{
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    height: 100vh !important;
+    overflow-x: hidden;
 }
 .container{
-    height: 100vh !important;
+    height: 800px !important;
 }
 #alert{
     font-size: 0.8rem !important;
@@ -34,7 +34,7 @@ tr{
 
 div#spans {
     position: fixed;
-    top: 30px;
+    top: 500px;
     right: 5px;
     display: grid;
 }
