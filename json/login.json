@@ -1,0 +1,13 @@
+{
+    "login": 
+        {
+            "osama": {
+                "username":"osama2023",
+                "password":"osama2023"
+            },
+            "ziad" : {
+                "username": "ziad", 
+                "password": "ziad2023"
+            }
+        }
+}

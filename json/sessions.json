@@ -1,0 +1,24 @@
+{
+    "sessions": [
+        {
+            "date": "11-07-2022",
+            "time": "8",
+            "name": "Siffie Vorgabe"
+        },
+        {
+            "date": "11-10-2022",
+            "time": "4.5",
+            "name": " Programmiersprachen und Typsysteme"
+        },
+        {
+            "date": "11-11-2022",
+            "time": "4.5",
+            "name": "Rechner Calculator"
+        },
+        {
+            "date": "12-02-2022",
+            "time": "2.25",
+            "name": "Programmiersprachen und Typysteme || Aufgabe 21"
+        }
+    ]
+}
