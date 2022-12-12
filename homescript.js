@@ -44,13 +44,14 @@
 
 
             }else if(document.location.search == `?user=${login.login.ziad.username}`){
-                //Go to home page with user is Osama
+                //Go to home page with user is Ziad
                 const tbody = document.getElementById("tbody");
                 fetch("./json/sessions.json")
                 .then((response) => {
                 return response.json();
                 })
                 .then((sessions)=>{
+                    console.log(sessions);
                     if(sessions.sessions.length > 0){
                         //alert(sessions.sessions.length)
                         let time = 0;
