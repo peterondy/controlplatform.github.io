@@ -34,7 +34,7 @@ tr{
 
 div#spans {
     position: fixed;
-    top: 500px;
+    top: 500px !important;
     right: 5px;
     display: grid;
 }
