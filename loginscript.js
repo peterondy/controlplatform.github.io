@@ -33,10 +33,10 @@
         .then( (login)=> {
                 if(username == login.login.osama.username && password == login.login.osama.password){
                     //Go to home page with user is Osama
-                    document.location.href = "./home.html?user=" + username;
+                    document.location.href = "https://peterondy.github.io/controlplatform.github.io/home.html?user=" + username;
                 }else if(username == login.login.ziad.username && password == login.login.ziad.password){
                     //Go to home page with user is Ziad
-                    document.location.href = "./home.html?user=" + username;
+                    document.location.href = "https://peterondy.github.io/controlplatform.github.io/home.html?user=" + username;
                 }else{
                     //Refresh the page
                     document.getElementById("al").innerHTML = "<h1 class='alert alert-danger mt-5 fs-1' id='alert'>Username Or Password Are Not Correct</h1>";
