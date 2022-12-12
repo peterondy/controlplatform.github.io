@@ -18,8 +18,8 @@ body{
     font-size: 0.8rem !important;
 }
 table{
-    overflow-y:scroll !important;
-    overflow-x: hidden !important;
+    overflow:scroll !important;
+    /*overflow-x: hidden !important;*/
     width: 100%;
     height: 500px;
     display: block;
